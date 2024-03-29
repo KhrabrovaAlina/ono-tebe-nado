@@ -11,4 +11,4 @@ Figma
 Flexbox
 Grid Layout
 
-
+Cсылка нп проект "Оно тебе надо": https://github.com/KhrabrovaAlina/ono-tebe-nado.git
