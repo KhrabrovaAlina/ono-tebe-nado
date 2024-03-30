@@ -56,6 +56,7 @@
 .address {
   justify-self: end;
   font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
   color: #000000;
   font-size: 18px;
   font-weight: 400;
@@ -67,7 +68,12 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding-bottom: 2px;
+  padding: 1px;
+}
+
+.address__link {
+text-decoration: underline;
+text-underline-offset: 4px;
 }
 
 /*--- COVER ---*/
@@ -81,7 +87,7 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 180px;
-  padding: 260px 50px 50px 50px;
+  padding: 163px 50px 53px 50px;
   z-index: 0;
 }
 
@@ -104,18 +110,20 @@
   text-transform: uppercase;
   letter-spacing: 30px;
   z-index: 2;
-  margin-bottom: 135px; 
+  margin-bottom: 80px; 
 }
 
 .aligned-text__left {
-  gap: 20;
+  margin-bottom: 7px; 
+  gap: 20px;
   text-align: left;
   display: block;
   line-height: 120%;
 }
 
 .aligned-text__center {
-  gap: 20;
+  margin-bottom: 11px; 
+  gap: 20px;
   text-align: center;
   display: block;
   line-height: 120%;
@@ -141,7 +149,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 126px;
+  padding-top: 53px;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
@@ -169,14 +177,14 @@
 /*--- LOTS ---*/
 
 .lots {
-  margin: 0 0 180px 0;
+  margin: 0 0 180px 22px;
 }
 
 .lots__title {
   font-weight: 700;
   font-size: 40px;
   color: #000000;
-  margin: 0 0 27px 90px;
+  margin: 0 0 25px 45px;
 }
 
 .lots__card-list {
@@ -267,14 +275,12 @@
 /*--- секция про Аукцион ---*/
 
 .about {
-  margin-left: -50px;
-  margin-bottom: 180px;
+  margin: 0 23px 175px 0;
 }
 
 .about__column {
   display: grid;
-  grid-template-columns: 430px 1fr;
-  gap: 8px 25px;
+  grid-template-columns: 385px 1fr;
 }
 
 .about__logo-container {
@@ -326,10 +332,10 @@
 /*--- Footer----*/
 
 .footer {
-  margin: 0 50px 90px 50px;
+  margin: 100px 52px 90px 50px;
   display: flex;
   justify-content: space-between;
-  padding-top: 3px;
+  padding-top: 2px;
 }
 
 .footer__address {
